@@ -5,37 +5,74 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="../css/main.css">
+    <script src="../js/jquery.js" defer></script>
+    <script src="../js/main.js" defer></script>
     <title>Document</title>
 </head>
 <body>
     <div class="wrapper">
+        <div class="mobile-menu">
+            <button class="hamburger-box" type="button">
+                <div class="hamburger-inner"></div>
+            </button>
+            <div class="logo">
+                <a href="">Ремастер</a>
+            </div>
+            <nav class="menu-box hide">
+                <ul class="menu">
+                    <li class="menu-item">
+                        <a href="#1">Оценка ремонта</a>
+                    </li>
+                    <li class="menu-item">
+                        <a href="#2">Подбор бригады</a>
+                    </li>
+                    <li class="menu-item">
+                        <a href="#3">Дизайн проект</a>
+                    </li>
+                    <li class="menu-item">
+                        <a href="#4">Единый замер</a>
+                    </li>
+                    <li class="menu-item">
+                        <a href="#5">Договор</a>
+                    </li>
+                    <li class="menu-item">
+                        <a href="#6">Контроль ремонта</a>
+                    </li>
+                    <li class="menu-item">
+                        <a href="">Все статьи</a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
         <div class="aside">
             <h2 class="aside__logo">
-                <a href="">Ремастер</a>
+                <div class="logo">
+                    <a href="">Ремастер</a>
+                </div>
             </h2>
             <nav class="aside__menu">
                 <ul class="menu">
                     <li class="menu-item">
-                        <a href="">Оценка ремонта</a>
+                        <a href="#1">Оценка ремонта</a>
                     </li>
                     <li class="menu-item">
-                        <a href="">Подбор бригады</a>
+                        <a href="#2">Подбор бригады</a>
                     </li>
                     <li class="menu-item">
-                        <a href="">Дизайн проект</a>
+                        <a href="#3">Дизайн проект</a>
                     </li>
                     <li class="menu-item">
-                        <a href="">Единый замер</a>
+                        <a href="#4">Единый замер</a>
                     </li>
                     <li class="menu-item">
-                        <a href="">Договор</a>
+                        <a href="#5">Договор</a>
                     </li>
                     <li class="menu-item">
-                        <a href="">Контроль ремонта</a>
+                        <a href="#6" >Контроль ремонта</a>
                     </li>
                 </ul>
             </nav>
-            <button class="aside__button" type="button">Все статьи</button>
+            <a href="" class="aside__button">Все статьи</a>
             <div class="aside__articles">
                 <article class="articles-item">
                     <a href="">
@@ -138,7 +175,7 @@
                     </a>
                 </article>
 
-                <button class="button_more">Ещё</button>
+                <a href="" class="button_more">Ещё</a>
             </div>
         </div>
         <main class="main">
@@ -151,12 +188,12 @@
                     Поиск предложений по выгодному ремонту отнимает кучу времени. Бывает тяжело воплотить в реальность свои задумки из-за многообразия выбора. Мы собрали в одном месте <b>6&nbsp;удобных&nbsp;сервисов</b>, которые помогут разобраться в вопросах ремонта. Они пригодятся как новичкам, так и профи. Избавят от лишней волокиты и волнения от предстоящей переделки вашей&nbsp;квартиры.
                 </p>
             </section>
-            <section class="main__article">
+            <section class="main__article" id="1">
                 <div class="main__article__title-block stick-right">
                     <h2 class="title">оценка ремонта</h2>
                     <span class="number">1</span>
                 </div>
-                <div class="main__article__content">
+                <div class="main__article__content odd">
                     <div class="image-wrapper">
                         <img class="image" src="../img/main__article-1.png" alt="Оценка ремонта">
                     </div>
@@ -166,17 +203,16 @@
                         </p>
                         <br>
                         <p class="text">
-                            Для прогноза затрат и расчета примерной сметы ремонта существуют, так называемые, калькуляторы ремонта. Мы выбрали из всего многообразия таких сервисов самый удобный, на наш взгляд. Он позволяет определить сумму ремонта, учитывая ваши пожелания. Процесс расчета ремонта занимает не больше 5 минут вашего времени. Вы отвечаете на простые вопросы и получаете список рекомендаций и конечную сумму ремонта.
+                            Для прогноза затрат и расчета примерной сметы ремонта существуют, так называемые, калькуляторы ремонта. Мы выбрали из всего многообразия таких сервисов <a href="" class="button_orange">самый удобный</a>, на наш взгляд. Он позволяет определить сумму ремонта, учитывая ваши пожелания. Процесс расчета ремонта занимает не больше 5 минут вашего времени. Вы отвечаете на простые вопросы и получаете список рекомендаций и конечную сумму ремонта.
                         </p>
                         <br>
                         <p class="text">
                             В чем его плюсы? Удобство использования, простой интерфейс и расчет цены с точностью до 90%. Для лучшего результата, советуем заранее замерить помещение, определиться с видом ремонта (косметический или евроремонт), какие материалы хотите использовать и будет ли изменена планировка.
                         </p>
-                        <button class="button_orange">Подробнее</button>
                     </div>
                 </div>
             </section>
-            <section class="main__article">
+            <section class="main__article" id="2">
                 <div class="main__article__title-block">
                     <span class="number">2</span>
                     <h2 class="title">WhatsApp чат-бот</h2>                    
@@ -184,7 +220,7 @@
                 <div class="main__article__content">
                     <div class="text-content">
                         <p class="text">
-                            Здорово, когда ремонт идет в ногу с новыми технологиями. Современные приложения для телефонов позволяют общаться и принимать важные решения в режиме онлайн. Казалось бы, что общего между ремонтом и приложением для мобильного телефона? Ответ прост — <b>чат-бот</b>.
+                            Здорово, когда ремонт идет в ногу с новыми технологиями. Современные приложения для телефонов позволяют общаться и принимать важные решения в режиме онлайн. Казалось бы, что общего между ремонтом и приложением для мобильного телефона? Ответ прост — <a href="" class="button_gray">чат-бот</a>.
                         </p>
                         <br>
                         <p class="text">
@@ -194,9 +230,10 @@
                         <p class="text">
                             Как уже было сказано выше, работает все очень просто. Вы, отвечая на вопросы, описываете какой ремонт вам нужно сделать. Неважно, будет ли это дизайнерский ремонт, косметический или же одна из услуг ремонтной бригады. После опроса, данные о ремонте, которые вы внесли, отправляются на рассмотрение ремонтным бригадам, которые разбиты по категориям: плиточники, отделочники, комплексные ремонты и т.д. В течение 15 минут вы получите наиболее выгодное для вас предложение. 
                         </p>
+                        <br>
                         <p class="text">
                             У чат-бота есть промежуточный контроль и служба поддержки, которые работают 24 часа. Вы можете обратиться за помощью, если  указали неверные данные либо что-то пошло не так. 
-                            <button class="button_gray">Перейти к чат-боту</button>
+                            <a href="" class="button_gray">Перейти к чат-боту</a>
                         </p>
                     </div>
                     <div class="image-wrapper">
@@ -204,12 +241,12 @@
                     </div>
                 </div>
             </section>
-            <section class="main__article">
+            <section class="main__article"  id="3">
                 <div class="main__article__title-block stick-right">
                     <h2 class="title">Бесплатный дизайн-проект</h2>
                     <span class="number">3</span>
                 </div>
-                <div class="main__article__content">
+                <div class="main__article__content odd">
                     <div class="image-wrapper">
                         <img class="image" src="../img/main__article-3.png" alt="Бесплатный дизайн-проект">
                     </div>
@@ -225,12 +262,12 @@
                         <br>
                         <p class="text">
                             Хотите расставить акценты в ремонте? За небольшую стоимость дизайнер дополнит свои разработки предметами интерьера (мебель, шторы, количество розеток, элементы декора и т.д.) и подгонит дизайн-проект под определенную цветовую гамму и стиль.
-                            <button class="button_gray">Перейти</button>
+                            <a href="" class="button_gray">Заказать бесплатно</a>
                         </p>
                     </div>
                 </div>
             </section>
-            <section class="main__article">
+            <section class="main__article"  id="4">
                 <div class="main__article__title-block">
                     <span class="number">4</span>
                     <h2 class="title">Бесплатный замер</h2>
@@ -248,23 +285,23 @@
                         <p class="text">
                             После замера вашего помещения полученные данные передаются городским ремонтным бригадам и мастерам. Конечная сумма ремонта может меняться, в зависимости от стоимости, которую предложат подрядчики. С помощью этого вы сможете сэкономить до 30% на будущем ремонте. Вы сами выбираете подрядчика, исходя из собственных интересов и финансов. 
                         </p>
+                        <br>
                         <p class="text">
                             Выбирайте только проверенных замерщиков, чтобы не было опасений, что они вас надули или обсчитали. Советуем обратиться к специалисту в этом деле Иванову Ивану, … “Инфа про Ивана” 
-                            <button class="button_gray">Перейти</button>
+                            <a href="" class="button_gray">Перейти</a>
                         </p>
-                        <button class="button_order" type="button">Заказать</button>
                     </div>
                     <div class="image-wrapper">
                         <img class="image" src="../img/main__article-4.png" alt="Бесплатный замер">
                     </div>
                 </div>
             </section>
-            <section class="main__article">
+            <section class="main__article"  id="5">
                 <div class="main__article__title-block stick-right">
                     <h2 class="title">Договор с подрядчиком</h2>
                     <span class="number">5</span>
                 </div>
-                <div class="main__article__content">
+                <div class="main__article__content odd">
                     <div class="image-wrapper">
                         <img class="image" src="../img/main__article-5.png" alt="Договор с подрядчиком">
                     </div>
@@ -281,14 +318,15 @@
                         <p class="text">
                             Решили, что вам нужен опытный юрист? Существуют юристы, которые специализируются на вопросах строительства и ремонта. У такого специалиста, как правило, есть опыт в составлении договора с подрядчиком и он помогает правильно заполнить все пункты. Вы получаете готовый договор, с соблюдением всех юридических формальностей.
                         </p>
+                        <br>
                         <p class="text">
                             Совет. Обращайтесь к проверенным юристам. Оставляем контактные данные лучшего специалиста в городе Омска, по вопросам ремонта и строительства.
                         </p>
-                        <button class="button_gray">Скачать договор</button>
+                        <a href="" class="button_order">Скачать договор</a>
                     </div>
                 </div>
             </section>
-            <section class="main__article">
+            <section class="main__article"  id="6">
                 <div class="main__article__title-block">
                     <span class="number">6</span>
                     <h2 class="title">Промежуточный контроль ремонта</h2>
@@ -306,9 +344,10 @@
                         <p class="text">
                             Специалист приедет к вам на начальном этапе ремонта или будет выезжать до окончания ремонтных работ.  Если вас не устраивает бригада или мастер, то он поможет разобраться в чем проблема и быстро устранит ее. 
                         </p>
+                        <br>
                         <p class="text">
-                            Для вас мы нашли <b>проверенную компанию</b> по ремонту, в которой работают специалисты в области строительства с многолетним опытом.
-                            <button class="button_gray">Подробнее</button>
+                            Для вас мы нашли <a href="" class="button_gray">проверенную компанию</a> по ремонту, в которой работают специалисты в области строительства с многолетним опытом.
+                            <a href="" class="button_gray">Подробнее</a>
                         </p>
                     </div>
                     <div class="image-wrapper">
@@ -317,6 +356,7 @@
                 </div>
             </section>
         </main>
+        <button class="button_page-up js-use" type="button"></button>
     </div>
     <footer class="footer">
         <div class="footer-wrapper">
@@ -331,14 +371,12 @@
                     <a href="tel:+74957796543" class="creator__info__number">+7 (495) 779-65-43</a>
                 </div>
             </div>
-
             <span class="footer__copyright">
                 ©2019. Все права защищены
             </span>
         </div>
         <div class="footer_right">
-            <button class="button_page-up"></button>
-            <button class="button_look-more">Посмотерть все статьи</button>
+            <a href="" class="button_look-more">Посмотреть все статьи</a>
         </div>
         </div>
     </footer>
