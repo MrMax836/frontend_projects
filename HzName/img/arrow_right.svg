@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 34 64" width="34" height="64">
+	<defs>
+		<image width="34" height="64" id="img1" href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACIAAABACAYAAAB/e6WTAAACYklEQVRoQ8XYvWtTYRTH8d+5QdFacdGOnZycnJq0SwWHkmSooA79K6RoU0GUguJwI9XVtS5yN22TDArdTKsFRV0FFcXBQSgFF82Rm/SqSfNyX845T5aQJeeT800u9wk93Nk5tPv910Vu0V6lnN+Aowf5ta0rIDxozye+WSlO33FhIb+xvQjm1X/D6UallL9rjaGVzc0jYz+PrgG47BJD4fCV4P3hseN7ARjzEYaAW0ulwm2rzbQh4SMIgtzHY5OPQFhwsZm/kAjzaXzyMQOXrDFdEJeZDkBcZeoLcZFpIMQ601CIZaaREKtMsSAWmWJDtDMlgmhmSgzRypQKopEpNUQ6UyaIZKbMEKlMIhCJTGKQrJlEIVkyiUPSZlKBpMmkBkmaSRWSJJM6JG4mE0icTGaQIZmWT0zk7ptCokObX28+B+h89Npjb9YcUm1sT4N5jYHTHQh9YPLKppBqrZln8tYBPrW/jR8eeXPXilOvzCAdBD0FMBEiGPjG3Jq7Xp55195L1Enz2a+/mCV4GwyMd+bw5xz4wtXSzOtorjpkWI7/P7wqZFQOE0i10TwHpvVhOdQh+5sI/yo92fvrGPRdFE+TJIfaRpLmUIGkySEOSZtDFJIlhxgkaw4RiESOzBCpHJkgkjlSQ6RzpIL0ywHOzVfKU28kbiFiXeK1ciTaiGaO2BDtHLEgFjlGQqxyDIVY5hgIsc7RF+IixwGIqxxdEL/28iyo9SzJja7ElbT3PcivNVdBtNg+f/UcAzUGDryLD4+DgPcEwFciLCwVC28tAV1Hznv1rTO/gd3lUuGLC0Q48w9ET/cBvU+kkgAAAABJRU5ErkJggg=="/>
+	</defs>
+	<style>
+		tspan { white-space:pre }
+	</style>
+	<g id="4 отзывы">
+		<g id="слайд">
+			<use id="icons8-back-100" href="#img1" transform="matrix(1,0,0,1,0,0)"/>
+		</g>
+	</g>
+</svg>
